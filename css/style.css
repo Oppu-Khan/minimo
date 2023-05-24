@@ -1,0 +1,222 @@
+
+
+body{
+	margin: 0;
+   font-family: 'Playfair Display', serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #626262;
+}
+
+/*header start*/
+header{
+	padding: 40px 0;
+/*	border: 1px solid red;*/
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	margin: 0 auto;
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	padding: 5px 0 ;
+	color: #626262;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+border-bottom: 1px solid #626262;
+}
+/*headerend*/
+/*banner start*/
+.banner{}
+.b_img{
+}
+.b_img img{
+width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding: 100px 0 20px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.c_light{
+	margin: 0;
+	font-family:'Ubuntu' sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform:uppercase;
+}   
+.c_title{
+	margin: 20px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.c_mb{
+	margin-bottom: 45px;
+}
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding-bottom: 100px;
+}
+.s_blog{
+	width: 47%;
+	float: left;
+	margin-right: 6%;
+	box-sizing: border-box;
+}
+.sb_mt{
+	margin-top: 80px;
+}
+.s_blog:nth-child(even){
+	margin-right: 0;
+}
+.s_img{
+margin-bottom: 20px;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog end*/
+/*news start*/
+.news{
+	min-height:300px;
+	background-color: #f0f0f0;
+}
+.signup{
+
+text-align: center;
+}
+.signup h1{
+	padding: 65px 0;
+
+}
+.Z_from{
+position: relative;
+}
+.ZInput{
+
+width: 266px;
+
+border: none;
+
+background-color: transparent;
+
+border-bottom: 2px solid black;
+
+/* height: 25px; */
+}
+.Zbtn{
+    position: absolute;
+    right: 41%;
+    top: -4px;
+    background-image: ../minimo/ENVOLOP.png;
+    border: none;
+    width: fit-content;
+}
+
+.s-form input{
+
+}
+.s-form button{
+
+}
+
+
+/*news end*/
+/*blog2 start*/
+.blog2{
+	padding: 20px 0 100px;
+}
+.load{
+	margin: 100px 0;
+	text-align: center;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background-color: white;
+    border:1px solid #626262;
+}
+/*blog2 end*/
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #f0f0f0;
+	overflow: hidden;
+}
+.left{
+   padding-top: 35px;
+   padding-left: 150px;
+	margin-left: 30px;
+	float: left;
+}
+
+.left a{
+	display: inline;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+.right{
+	padding-top: 35px;
+	padding-right: 150px;
+	float: right;
+	color: #626262;
+	list-style: none;
+}
+.right ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+.right p{
+	    display: inline;
+	    margin-right: 25px;
+	    vertical-align: super;
+	    color: #000000;
+	    text-decoration: none;
+}
+.ab{
+	margin-left: 25px;
+}
+
+
+
